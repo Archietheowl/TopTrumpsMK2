@@ -1,0 +1,60 @@
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`) 
+VALUES ('Little Petey', '', '9', '5', '1', '9', '10');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Mecha Flippy', '', '9', '9', '10', '0', '0');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Petey', '', '7', '10', '0', '0', '5');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Comander Cupcake', '', '5', '0', '0', '9', 'NA');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Dog Man', '', '8', '5', '6', '7', '7');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('80HD', '', '10', '7', '8', '5', '8');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Sarah Hatoff', '', '10', '9', '8', '3', '5');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Zuzu', '', '7', '4', '4', '2', '3');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Chief', '', '5, '5', '5', '6', '5');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Yolay Caprese', '', '0', '0', '0', '0', '0');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('The BFG', '', '21', '10', '3', '100', '17');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Sophie', '', '42', '35', '6', '95', '14');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('The Head of The Army', '', '38', '90', '22', '14', '0');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('The Head of The Air Force','', '40', '92', '20', '15', '1');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('The Queen', '', '41', '50', '23', '70', '3');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Mr Tibbs', '', '34', '55', '10', '67', '2');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('The Fleshlumpeater', '', '10', '88', '49', '0', '8');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('The Meatdripper', '', '8', '79', '48', '3', '7');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('The Bonecruncher', '', '6', '71', '46', '2', '6');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('The Gizardgulper', '', '6', '68', '47', '4', '5');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Matilda Wormwood', '', '50', '60', '4', '80', '23');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Bruce Bogtrotter', '', '7', '10', '45', '25', '20');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Miss Jennifer Honey', '', '41', '5', '0', '95', '4');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Miss Agatha Trunchbull', '', '37', '85', '47', '1', '19');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Mr Wormwood', '', '12', '80', '41', '5', '26');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Mrs Wormwood', '', '14', '64', '39', '7', '16');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Michael Wormwood', '', '11', '40', '35', '10', '25');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Amanda Thripp', '', '15', '3', '12', '60', '0');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Lavender', '', '27', '48', '7', '75', '18');
+INSERT INTO dogman (`CardName`,  `Info`, `Bravery`, `Intelegence`, `Power`, `Silliness`, `Kindness`)  
+VALUES ('Newt', '', '2', '38', '32', '20', '27');

@@ -1,0 +1,20 @@
+CREATE TABLE users(
+userID INT AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(255),
+password VARCHAR(255),
+firstname VARCHAR(255),
+surname VARCHAR(255),
+Email VARCHAR(255));
+
+
+CREATE TABLE decks(
+deck_ID INTEGER AUTO_INCREMENT PRIMARY KEY,
+deck_name VARCHAR(255),
+cards INT);
+
+CREATE TABLE learning_resources(
+    rID INTEGER AUTO_INCREMENT PRIMARY KEY,
+    rName VARCHAR(255),
+    rDesc VARCHAR(255),
+    rImg VARCHAR(255),
+    rFile VARCHAR(255));

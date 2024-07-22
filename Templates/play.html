@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+play
+{% endblock %}
+
+{%block content%}
+<h1></h1>
+<p>{{age}} {{name}} {{gender}}</p>
+
+<select name="deckChoice" id="deckChoice">
+    <option value="deckChoice">Choose Your Deck</option>
+    <option value="Deck1">{{deck1}}</option>
+    <option value="Deck2">{{deck2}}</option>
+    <option value="Deck3">{{deck3}}</option>
+</select>
+{% if deckChoice == "Sports Cars" %}
+    {% include 'testform.html' %}
+{% endif %}
+{% endblock %}

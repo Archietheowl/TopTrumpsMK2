@@ -1,0 +1,60 @@
+INSERT INTO roalddahl1 (`CardName`,  `Info`, `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Charlie Bucket', '', '35', '5', '2', '90', '5');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Willy Wonka', '', '45', '95', '35', '60', '28');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Grandpa Joe', '', '31', '6', '1', '91', '22');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Augustus Gloop', '', '5', '5', '50', '20', '8');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Veruca Salt', '', '20', '10', '42', '5', '11');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Violet Beauregarde', '', '22', '20', '40', '15', '12');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Mike Teavee', '', '15', '15', '38', '10', '13');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Oompa Loompa', '', '30', '75', '15', '55', '30');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Grandpa George', '', '24', '4', '3', '85', '15');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Grandma Josephine', '', '23', '3', '4', '83', '6');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('The BFG', '', '21', '10', '3', '100', '17');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Sophie', '', '42', '35', '6', '95', '14');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('The Head of The Army', '', '38', '90', '22', '14', '0');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('The Head of The Air Force','', '40', '92', '20', '15', '1');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('The Queen', '', '41', '50', '23', '70', '3');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Mr Tibbs', '', '34', '55', '10', '67', '2');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('The Fleshlumpeater', '', '10', '88', '49', '0', '8');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('The Meatdripper', '', '8', '79', '48', '3', '7');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('The Bonecruncher', '', '6', '71', '46', '2', '6');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('The Gizardgulper', '', '6', '68', '47', '4', '5');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Matilda Wormwood', '', '50', '60', '4', '80', '23');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Bruce Bogtrotter', '', '7', '10', '45', '25', '20');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Miss Jennifer Honey', '', '41', '5', '0', '95', '4');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Miss Agatha Trunchbull', '', '37', '85', '47', '1', '19');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Mr Wormwood', '', '12', '80', '41', '5', '26');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Mrs Wormwood', '', '14', '64', '39', '7', '16');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Michael Wormwood', '', '11', '40', '35', '10', '25');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Amanda Thripp', '', '15', '3', '12', '60', '0');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Lavender', '', '27', '48', '7', '75', '18');
+INSERT INTO roalddahl1 (`CardName`, `Info`,  `Brains`, `Cunning`, `Greed`, `Kindness`, `Mischief`) 
+VALUES ('Newt', '', '2', '38', '32', '20', '27');

@@ -1,0 +1,7 @@
+
+INSERT INTO TTDecks (`Deck Name`) 
+VALUES ('Harry Potter: Goblet of Fire');
+INSERT INTO TTDecks (`Deck Name`) 
+VALUES ('Roald Dahl Volume 1');
+INSERT INTO TTDecks (`Deck Name`) 
+VALUES ('Sports Cars');

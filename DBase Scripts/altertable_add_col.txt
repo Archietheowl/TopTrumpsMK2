@@ -1,0 +1,11 @@
+ALTER TABLE **name_of_table**
+ADD **column_2_B_added** INT AUTO_INCREMENT PRIMARY KEY ** position either: FIRST or AFTER existing column name;
+
+ALTER TABLE harrypotterandthegobletoffire
+ADD CardID INT AUTO_INCREMENT PRIMARY KEY FIRST;
+
+ALTER TABLE roalddahlvol1
+ADD CardID INT AUTO_INCREMENT PRIMARY KEY FIRST;
+
+ALTER TABLE sportscars
+ADD CardID INT AUTO_INCREMENT PRIMARY KEY FIRST;

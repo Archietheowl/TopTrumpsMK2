@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+<div id="subheader">
+    <h2>SPECIAL INTERESTS MAKE LEARNING ESPECIALLY INTERESTING</h2>
+</div>
+
+<div id="home-cards">
+    <a href="{{url_for('play')}}">
+        <div id="home-card-play">
+            <div class="home-card-head" id="play-card-head">
+                <h3>
+                    PLAY
+                </h3>
+                <img id="purp-cards" src="{{url_for('static', filename='images/TTCardIcon-noBG.png')}}"
+                    alt="Icon of a pair of cards coloured purple">
+                <div>
+                    <p>Play Top Trumps against the computer.</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="{{url_for('trumpopedia')}}">
+        <div id="home-card-opedia">
+            <div class="home-card-head" id="opedia-card-head">
+                <h3>
+                    TRUMPOPEDIA
+                </h3>
+                <img id="grn-magnify" src="{{url_for('static', filename='images/TTSearchIcon-noBG.png')}}"
+                    alt="Icon of green magnifying glass">
+                <div>
+                    <p>Search for information about various Top Trumps Decks</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="{{url_for('learn')}}">
+        <div id="home-card-learn">
+            <div class="home-card-head" id="learn-card-head">
+                <h3>
+                    LEARN
+                </h3>
+                <img id="orng-lBulb" src="{{url_for('static', filename='images/TTLightbulbIcon-noBG.png')}}"
+                    alt="Icon of orange lightbulb">
+                <div>
+                    <p>Find out more about using Top Trumps for learning</p>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+{% endblock %}

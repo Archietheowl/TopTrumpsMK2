@@ -1,0 +1,61 @@
+
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Alfa Romeo 4C', '', '40','1.8','6','160','2013','1');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Alfa Romeo GTV', '', '39','3.2','5','158','1993','11');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Alfa Romeo Spider', '', '34','2','1','118','1966','27');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Ariel Atom', '', '44','2','3','150','1996','18');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Aston Martin Vantage','', '36','6', '5','205','2005','9');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Audi R8', '', '23','5.2','4','196','2007','7');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('BAC Mono', '', '47','2.3','7','170','2011','3');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Bugatti Veyron', '', '46','8','9','267','2005','14');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Chevrolet Corvette', '', '24','6.2','8','190','1953','61');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Ferrari 458', '', '46','4.5','7','202','2009','5');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Ferrari F40', '', '49','2.9','4','201','1987','5');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Ford GT', '', '33','5.4','6','205','2004','2');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Ford Mustang', '', '20','5.8','3','190','1964','50');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Honda NSX', '', '49','3','8','191','1990','15');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Jaguar F-Type', '', '26','3','2','171','2013','1');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Jaguar KJ220', '', '40','3.5','8','220','1992','2');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Koenigsegg CCX', '', '41','5','4','273','2006','8');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Laferrari', '', '36','6.3','10','217','2013','1');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Lamborghini Aventador', '', '29','6.5','4','217','2011','3');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Lexus LFA', '', '29','4.8','3','203','2010','2');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Lotus Elise', '', '35','1.8','3','127','1996','18');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Maserati Granturismo', '', '28','4.7','3','177','2007','3');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Mazda RX-8', '', '30','1.3','10','145','1978','3');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('McLaren F1', '', '50','3.8','9','217','1992','6');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('McLaren 12C', '', '45','3.8','9','207','2011','3');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Missan GTR', '', '36','3.8','5','195','2007','7');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Pagani Huayra', '', '44','6','8','231','2012','2');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Porsche 911/997', '', '48','3.8','7','188','1963','51');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Porshe 959', '', '34','2.85','8','195','1986','3');
+INSERT INTO sportscars (`CardName`, `Info`, `Cool Factor`, `Engine Size`, `Innovation`, `Top Speed(mph)`, `Year Launched`, `Years In Production`) 
+VALUES('Toyota GT86','','23','2', '5','140','2012','2');

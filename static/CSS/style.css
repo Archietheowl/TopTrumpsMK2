@@ -1,0 +1,533 @@
+/*
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Lexend', sans-serif;
+font-family: 'Sigmar One', cursive;
+*/
+.dummyClass{
+    color:#57A0FF;
+    color: #FFB657;
+    color: #A0FF57;
+    color: #B657FF;
+} 
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #57A0FF;
+    padding:0px 0px 0px 0px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 14pt;
+    text-align: center;
+}
+p{
+    padding:10px;
+}
+#splash-div{
+    opacity: 0.30;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -5;
+    
+}
+#splash-div div{
+    width: 730px;
+}
+#splash-div div img{
+    position: relative;
+    top: -300px;
+    right: 170px;
+}
+#cards-logo{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    height: 11em;
+    z-index: 5;
+}
+#card-div{
+    display: flex;
+    justify-items: end;
+    margin-top: -200px;
+
+}
+/*Navigation*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /*margin-top: 0px;
+    padding: 1em;
+    width:100%;*/
+}
+.navbar a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+.navbar ul{
+    width: 100%;
+    display: flex;
+}
+.navbar li{
+    display: flex;
+    padding: 5px 10px;
+    width: 100%;
+    list-style-type: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;    
+}
+
+.hamburger{
+    align-self: center;
+    display:none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 30px;
+    border-radius: 150px;
+    height: 4px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.03s ease-in-out;
+    background-color: #013846;
+}
+.nav-home{
+    padding: 5px 10px;
+    background-color: #ff5757;
+    transform: rotate(10deg);
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.nav-home:hover{
+    background-color: white;
+    transform: rotate(0deg);
+}
+.nav-play{
+    padding: 5px 10px;
+    background-color: #A0FF57;
+    transform: rotate(-5deg);  
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.nav-play:hover{
+    background-color: white;
+    transform: rotate(0deg);
+}
+.nav-opedia{
+    padding: 5px 10px;
+    background-color: #f58f09;
+    transform: rotate(8deg);
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.nav-opedia:hover{
+    background-color: white;
+    transform: rotate(0deg);
+}
+.nav-learn{
+    padding: 5px 10px;
+    background-color: #B657FF;
+    transform: rotate(-9deg);
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.nav-learn:hover{
+    background-color: white;
+    transform: rotate(0deg);
+}
+
+header{
+    width: 90%; 
+}
+
+h1{
+    font-family: 'Sigmar One', cursive;
+    font-size: 8vw;
+    line-height: 12vw;
+    color:#f58f09;
+    text-shadow: 3px 3px 0px black;
+    letter-spacing: 5px;
+    -webkit-text-stroke: black 2px;
+    width: 90%;
+    text-align: center;
+    z-index: 1;
+}
+
+h2{
+    margin: 0% 5% 5% 5%;
+    font-family: 'Bebas Neue', cursive;
+    width: 90%;
+    font-size: 6vw;
+    letter-spacing: 3px;
+}
+
+#subheader{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #A0FF57;
+    width: 100%;
+    height: fit-content;
+}
+.footer-menu{
+    display: flex;
+    text-align: left;
+}
+.footer-copyright{
+    position: static;
+    display:flex;
+    align-self: flex-end;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+footer li{
+    padding: 0px 15px 0px 15px;
+    font-size: 1em;
+    text-decoration: none;
+    list-style-type:none;
+    font-family: 'Bebas Neue', cursive;
+}
+footer li a{
+    color: black;
+    text-decoration: none;
+}
+footer li a:hover{
+    color: #f58f09;
+}
+
+/*Home Page Content*/
+#home-cards{
+    margin: 0px 0px 25px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#home-cards a{
+    text-decoration: none;
+    color: black;
+}
+#home-card-play{
+    display: flex;
+    margin: 20px 30px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height:450px;
+    box-shadow: 5px 5px black;
+    transform: rotate(5deg);
+}
+#home-card-play:hover{
+    transform: rotate(0deg);
+}
+#home-card-opedia{
+    display: flex;
+    margin: 20px 30px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height:450px;
+    box-shadow: 5px 5px black;
+    transform: rotate(-5deg);
+}
+#home-card-opedia:hover{
+    transform: rotate(0deg);
+}
+#home-card-learn{
+    display: flex;
+    margin: 20px 30px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height:450px;
+    box-shadow: 5px 5px black;
+    transform: rotate(5deg);
+}
+#home-card-learn:hover{
+    transform: rotate(0deg);
+}
+#home-cards h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.home-card-head{
+    margin-top: 0px;
+    border-bottom: 5px solid black;;
+    border-radius: 4px 4px 0px 0px;
+    padding-bottom:20px;
+    width: 300px;
+    height:75px;
+    z-index: 20;
+}
+#play-card-head{
+    background-color: #A0FF57;
+}
+#purp-cards{
+    margin: 0% 10% 0% 10%;
+    width: 80%;
+}
+
+#opedia-card-head{
+    background-color: #f58f09;
+}
+#grn-magnify{
+    margin: 0% 10% 0% 10%;
+    width: 80%;
+}
+
+#learn-card-head{
+    background-color: #B657FF;
+}
+#orng-lBulb{
+    margin: 0% 10% 0% 10%;
+    width: 80%;
+}
+/*********Learn Page**********/
+.card-grid{
+    display: grid;
+    margin: 0 auto;
+    max-width: auto;
+    grid-template-rows: 3, 1fr;
+    gap: 20px;
+}
+.card{
+    background-color: #A0FF57;
+    border-radius: 20px;
+}
+.card-header{
+    background-color: #B657FF;
+    border-top: 10%;
+}
+.card-thumb{
+    background-color: #ff5757;
+}
+.card-text{
+    background-color: aliceblue;
+}
+/**** Play page current card graffic*****/
+.card-container{
+    display: block;
+}
+.card{
+    background-color: antiquewhite;
+    width: 400px;
+} 
+.card-bg{
+    background-color: #A0FF57;
+    } 
+.card-ttl{
+    background-color: #B657FF;
+    font-family: 'Sigmar One', cursive;
+
+    } 
+.card-img{
+    background-color: #E6E9F5;
+    } 
+.card-tbl{
+    background-color: #ff5757;
+    } 
+.card-tbl tr{
+    background-color: aqua;
+    }
+.card-tbl th{
+    background-color: #013846;
+    }
+.card-tbl td{
+    background-color: #FFB657;
+    }
+
+/*********Trumpopedia (TOP) Page**********/
+
+.topPageHeader{
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+.topPageFields{
+    padding: 0px 0px 0px 100px;
+}
+#topDeckChoice{
+    
+    border: solid black 3px;
+    width: 450px;
+    height: 50px;
+    font-size: 1.25em;
+    font-family: 'Lexend', sans-serif;
+}
+
+.topPageBtn{
+    padding: 5px 10px;
+    background-color: #ff5757;
+    transform: rotate(5deg);
+    box-shadow: 5px 5px black;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.topPageBtn:hover{
+    background-color: white;
+    transform: rotate(0deg);
+}
+
+.topPageBtn a{
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*Media Queries*/
+@media(min-width:1007px){    
+    #comic-splash{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin: -210px -380px 0px 0px;
+        height: 43em;
+        opacity: 0.37;
+        z-index: -5;
+    }  
+    #cards-logo{
+        position: absolute;
+        top: 0px;
+        right:0px;
+        height: 250px;
+    }
+    }
+/*Navigation Media Queries*/
+    @media(max-width: 768px){
+        .navbar{
+            position: absolute;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            flex-direction: column;
+            z-index: 2;
+        }
+        .navbar-links{
+            display:none;
+            width: fit-content;
+            border: 5px solid black;
+            padding: 0px,20px,0px,0px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 5px 5px black;
+
+        }
+        .navbar-links.active {
+            display: inline;
+            width: fit-content;
+            text-align: center;
+        }
+        .navbar a {
+            display: flex;
+            width:fit-content;
+            justify-self: center;
+            text-decoration: none;
+            color: black;
+            font-family: 'Bebas Neue', cursive;
+        }
+
+        .navbar ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar li {
+            padding: 5px 10px;
+            list-style-type: none;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2em;
+        }
+
+        .hamburger{
+            display:block;
+        }
+
+        .hamburger.active .bar:nth-child(2){
+            opacity: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(1){
+            transform: translateY(9px) rotate(45deg);
+        }
+        .hamburger.active .bar:nth-child(3){
+            transform: translateY(-9px) rotate(-45deg);
+        }
+
+            .nav-home {
+                padding: 5px 10px;
+                background-color: #ff5757;
+                box-shadow: 5px 5px black;
+                border: 3px solid black;
+                border-radius: 4px;
+                transform: rotate(0deg);
+            }
+
+            .nav-home:hover {
+                background-color: white;
+            }
+
+            .nav-play {
+                padding: 5px 10px;
+                background-color: #A0FF57;
+                box-shadow: 5px 5px black;
+                border: 3px solid black;
+                border-radius: 4px;
+                transform: rotate(0deg);
+            }
+
+            .nav-play:hover {
+                background-color: white;
+            }
+
+            .nav-opedia {
+                padding: 5px 10px;
+                background-color: #f58f09;
+                box-shadow: 5px 5px black;
+                border: 3px solid black;
+                border-radius: 4px;
+                transform: rotate(0deg);
+            }
+
+            .nav-opedia:hover {
+                background-color: white;
+            }
+
+            .nav-learn {
+                padding: 5px 10px;
+                background-color: #B657FF;
+                box-shadow: 5px 5px black;
+                border: 3px solid black;
+                border-radius: 4px;
+                transform: rotate(0deg);
+            }
+
+            .nav-learn:hover {
+                background-color: white;
+            }
+    }
+     
