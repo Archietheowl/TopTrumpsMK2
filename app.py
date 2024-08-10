@@ -3,6 +3,7 @@ from flask_bootstrap import Bootstrap
 from flask_mysqldb import MySQL
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_ckeditor import CKEditor
+from flask_login import LoginManager, login_manager
 import yaml 
 import os
 
@@ -41,7 +42,7 @@ def play():
 def learn():
     return render_template("learn.html")
 
-@app.route('/trumpopedia/')
+@app.route('/trumpopedia/', methods=['GET','POST'])
 def trumpopedia():
     return render_template("trumpopedia.html")
 
@@ -49,14 +50,13 @@ def trumpopedia():
 def register():
     return render_template()
 
-@app.route('/login/')
+@app.route('/login', methods=['GET', 'POST'])
 def login():
-    return render_template()
+    return render_template("login.html")
 
 @app.route('/logout/')
 def logout():
     return render_template()
-
 
 # invoke /call the main class
 if __name__ == "__main__":
